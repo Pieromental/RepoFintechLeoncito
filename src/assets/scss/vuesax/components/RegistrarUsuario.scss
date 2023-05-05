@@ -1,0 +1,122 @@
+
+.registrar-header {
+  position: fixed;
+  float: right;
+  top: 4.41rem;
+  right: 0;
+  width: 50%;
+  min-width: 28rem;
+  opacity: 0.9;
+  background: #1441af;
+}
+
+.registrar-usuario {
+  position: fixed;
+  float: right;
+  top: 4.46rem;
+  padding-top: 1.5rem;
+  right: 0;
+  width: 50%;
+  min-width: 25.7rem;
+  opacity: 0.9;
+  background: #1441af;
+  height: -webkit-fill-available;
+  display: inline-grid;
+  overflow-y: scroll;
+}
+
+.registrar-usuario::-webkit-scrollbar {
+  background: transparent;
+  border-radius: 5px;
+  width: 0.8rem;
+}
+
+.registrar-usuario::-webkit-scrollbar-thumb {
+  background: slategray;
+  border-radius: 5px;
+}
+
+.registrar-usuario .seccion {
+  right: -100%;
+  width: 80%;
+  height: calc(100% + 4.41rem);
+  background: #1441af;
+  margin-top: 1rem;
+} 
+
+.registrar-usuario .tituloForm {
+  text-align: center;
+  font-size: large;
+} 
+
+.buttons{
+  text-align: center; 
+  width: 100%;
+}
+
+.boton-cerrar{
+  font-size: 1.5rem;
+  color: white;
+}
+
+@media only screen and (min-width: 1126px) {
+  .registrar-header {
+    width: 40%;
+  }
+  .registrar-usuario {
+    width: 40%;
+  }
+  .registrar-usuario .seccion {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1125px) and (min-width: 768px) {
+  .registrar-header {
+    width: 50%;
+  }
+  .registrar-usuario {
+    width: 50%;
+  }
+  .registrar-usuario .seccion {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+  .registrar-header {
+    width: 65%;
+  }
+  .registrar-usuario {
+    width: 65%;
+  }
+  .registrar-usuario .seccion {
+    width: 80%;
+  }
+}
+
+.boldRegistro{
+  font-weight: 700;
+  color: white; 
+}
+
+.numberRegistro{
+  color: white; 
+}
+
+.simpleRegistro{
+  font-size: 0.8rem !important;
+  color: white; 
+}
+
+.cursor{
+  color: darkgray;
+}
+
+.cursor:hover{
+  cursor: pointer;
+}
+
+.vs-input-primary.focusNew .vs-input--input:focus{
+  border: 2px solid white !important;
+}

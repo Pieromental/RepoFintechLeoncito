@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.25" height="26.25" viewBox="0 0 31.25 26.25">
+  <g id="IconAsignarReportes" transform="translate(-210 -104.75)">
+    <path id="Trazado_85" data-name="Trazado 85" d="M2206,120l7.076-2.945" transform="translate(-1983 -4)" fill="none" stroke="#acacac" stroke-width="1"/>
+    <path id="Trazado_84" data-name="Trazado 84" d="M2213,117l3.22-2.3,1.171-.835,2.635-1.879" transform="translate(-1983 -4)" fill="none" stroke="#acacac" stroke-width="1"/>
+    <path id="Trazado_80" data-name="Trazado 80" d="M27.76,64.855h3.3c.193,0,.35.325.35.726V81.835h-4V65.581c0-.4.157-.726.35-.726Z" transform="translate(207.487 46.249)" fill="#0f0e0e"/>
+    <path id="Trazado_81" data-name="Trazado 81" d="M27.76,64.855h3.3a.382.382,0,0,1,.35.407v9.121h-4V65.262a.382.382,0,0,1,.35-.407Z" transform="translate(193.487 53.701)" fill="#acacac"/>
+    <path id="Trazado_82" data-name="Trazado 82" d="M27.76,64.855h3.3c.193,0,.35.239.35.533V77.325h-4V65.388c0-.294.157-.533.35-.533Z" transform="translate(200.487 50.759)" fill="#707070"/>
+    <line id="Línea_16" data-name="Línea 16" y2="23" transform="translate(217.5 105.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+    <line id="Línea_17" data-name="Línea 17" y2="23" transform="translate(240.5 128.5) rotate(90)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.5"/>
+    <circle id="Elipse_7" data-name="Elipse 7" cx="5.5" cy="5.5" r="5.5" transform="translate(210 120)" fill="#fff"/>
+    <line id="Línea_18" data-name="Línea 18" y2="8" transform="translate(215.5 121.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.8"/>
+    <line id="Línea_19" data-name="Línea 19" x1="8" transform="translate(211.5 125.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1.8"/>
+    <g id="Elipse_8" data-name="Elipse 8" transform="translate(236 107)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="1" cy="1" r="1" stroke="none"/>
+      <circle cx="1" cy="1" r="0.5" fill="none"/>
+    </g>
+    <g id="Elipse_9" data-name="Elipse 9" transform="translate(229 112)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="1" cy="1" r="1" stroke="none"/>
+      <circle cx="1" cy="1" r="0.5" fill="none"/>
+    </g>
+    <g id="Elipse_10" data-name="Elipse 10" transform="translate(222 115)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="1" cy="1" r="1" stroke="none"/>
+      <circle cx="1" cy="1" r="0.5" fill="none"/>
+    </g>
+  </g>
+</svg>

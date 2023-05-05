@@ -1,0 +1,369 @@
+/*=========================================================================================
+  File Name: main.scss
+  Description: Main scss file. Imports other scss partials from 'vuesax' folder
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuesax Admin - VueJS Dashboard Admin Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+
+@import "vuesax/variables";
+
+@import "vuesax/layout";
+@import "vuesax/typography";
+@import "vuesax/misc";
+@import "vuesax/extraComponents";
+@import "vuesax/themes";
+@import "vuesax/routerAnimations";
+@import "vuesax/transitions";
+
+@import "vuesax/customClasses";
+
+// Vuesax fixes and enhancments
+@import "vuesax/fixesVuesax";
+
+@import "vuesax/filtro";
+
+// Tailwind Fixes
+@import "vuesax/tailwindFix";
+
+@import "vuesax/helpers";
+
+.vs-con-table .vs-con-tbody .vs-table--tbody-table {
+  font-size: 0.9rem !important;
+}
+
+.v-select .dropdown-toggle .clear {
+  display: none;
+}
+
+.sidebar-formulario .vs-sidebar {
+  max-width: 360px;
+}
+
+.vx-sidebar-filtro {
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2),
+    0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2), 0 5px 15px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+.vx-sidebar-filtro .vs-sidebar--items {
+  padding: 0;
+}
+
+.vx-sidebar-filtro .vdp-datepicker__calendar {
+  width: auto;
+}
+
+.vx-sidebar-filtro .vdp-datepicker input {
+  width: 100% !important;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.vx-sidebar-filtro .title-section {
+  background-color: #485565;
+}
+
+.vx-sidebar-filtro .title-section h5 {
+  font-size: 17px;
+  height: 24px;
+  line-height: 24px;
+  display: inline-block;
+  font-weight: 600;
+  color: #d5dfeb;
+}
+
+.vx-sidebar-filtro .button-actions .feather-icon svg {
+  color: #969fac;
+}
+
+.vx-sidebar-filtro .header-filter {
+  padding-left: 26px !important;
+  padding-right: 26px !important;
+  color: #b0b0b0 !important;
+}
+
+.vx-sidebar-filtro .header-filter .select-none svg {
+  color: #41465a !important;
+}
+
+.vx-sidebar-filtro .header-filter.filter-not-empty {
+  border-left: 3px solid #41465a;
+}
+
+.vx-sidebar-filtro .header-filter.filter-not-empty h6 {
+  font-weight: 600;
+  color: #41465a !important;
+}
+
+.vx-sidebar-filtro .v-select .dropdown-toggle .clear {
+  /*display: block;*/
+  display: none;
+}
+
+.vx-sidebar-filtro .v-select a {
+  white-space: unset;
+}
+
+// .vx-sidebar-filtro .vs-button-flat {
+//   color: #090909;
+//   font-weight: 600;
+// }
+
+// .vx-sidebar-filtro .vs-button-flat .feather {
+//   font-weight: 600;
+// }
+
+// .vx-sidebar-filtro .vs-button-dark.vs-button-filled {
+//   background: #070707 !important;
+// }
+
+.lista-filtros {
+  background-color: #f5f8ff;
+  border-left: 4px solid #c8cbd2;
+  border-radius: 3px;
+}
+
+.lista-filtros h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lista-filtros .chip-filtro {
+  min-height: 20px;
+  margin-bottom: 0px;
+  color: #e1dffc;
+}
+
+.lista-filtros .chip-filtro span {
+  color: #000;
+}
+
+/*.includeIconOnly.small {
+  height: 32px !important;
+  width: 32px !important;
+}*/
+
+.botones-secundarios .vs-button.includeIcon {
+  float: left;
+}
+
+.grecaptcha-badge {
+  display: none;
+}
+
+.ps__scrollbar-x-rail,
+.ps:hover > .ps__scrollbar-x-rail:hover,
+.ps:hover.ps--in-srolling.ps--x > .ps__scrollbar-x-rail {
+  background-color: transparent !important;
+}
+
+// LOGIN
+
+.form-group {
+  display: block;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input-login {
+  margin-right: 0px;
+  margin-top: 0 !important;
+}
+
+.input-login .vs-input--input.normal {
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+  border-radius: 0;
+
+  box-shadow: none;
+}
+
+.input-login .vs-con-input {
+  width: 100%;
+}
+
+
+.input-subcaja input.vs-inputx.vs-input--input.small{
+  border-radius: 5px 0px 0px 5px !important;
+  border-right: none !important;
+}
+
+.input-caja input.vs-inputx.vs-input--input.small{
+  border-left: none !important;
+  border-radius: 0px 5px 5px 0px !important;
+}
+
+.input-text-center input.vs-inputx.vs-input--input.small{
+  text-align: center;
+}
+
+.vuesax-app-is-ltr .vs-input--placeholder.small {
+  padding: .5rem .6rem;
+}
+
+.ht-24 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 8px;
+  vertical-align: bottom;
+  transition: all 0.3s ease;
+}
+
+.ht-24 svg {
+  height: 16px;
+}
+
+.ht-24.isFocus {
+  border-bottom: 1px solid rgba(var(--vs-primary), 1);
+}
+
+.ht-24.isFocus svg {
+  stroke: rgba(var(--vs-primary), 1);
+}
+
+.with-icon-1 {
+  width: calc(100% - 24px);
+}
+
+.with-icon-2 {
+  width: calc(100% - 42px);
+}
+
+.input-icono {
+  display: inline-flex;
+}
+
+.titulo-mensaje-sistema {
+  font-size: 15px;
+}
+
+.titulo-lista-parametros-requeridos {
+  font-size: 12px;
+  font-weight: 500;
+
+  color: rgba(var(--vs-danger), 1);
+}
+
+.titulo-lista-parametros-opcionales {
+  font-size: 12px;
+  font-weight: 500;
+
+  color: rgba(var(--vs-warning), 1);
+}
+
+.titulo-lista-parametros-informativos {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #041756 !important;
+}
+
+.parametro-requerido-mensaje {
+  font-size: 11px;
+  text-align: justify;
+}
+
+.list-icon-parametros {
+  padding-left: 0;
+}
+
+.color-e-danger {
+  color: rgba(var(--vs-danger), 1);
+}
+
+.color-w-warning {
+  color: rgba(var(--vs-warning), 1);
+}
+
+.color-i-info {
+  color: #17a2b8 !important;
+}
+
+.popup-parametros-requeridos {
+  width: 50em;
+  max-height: 600px;
+  overflow-x: auto;
+  display: inline-block !important;
+}
+
+.form_side {
+  position: absolute;
+  background: #fff;
+  top: 10px;
+  right: 10px;
+  width: calc(100% - 20px);
+  border-radius: 0.5rem !important;
+  padding: 1rem 2rem !important;
+  -webkit-box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.2);
+  margin-top: 5rem;
+  z-index: 500;
+  height: 600px;
+}
+
+.tablax-enter-active,
+.tablax-leave-active {
+  transition: all 0.5s;
+}
+.tablax-enter,
+.tablax-leave-to {
+  opacity: 0;
+  position: absolute !important;
+  transform: translate(100%) !important;
+}
+
+.form_side .ps-container {
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+#transparencia {
+  //position: absolute;
+  //top: 0;
+  //left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+  .vs-middle {
+    max-width: 55vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .vs-middle {
+    max-width: 80vw;
+  }
+
+  .popup-parametros-requeridos {
+    max-height: 500px;
+    padding: 1.25em 0.2em;
+    padding-right: 0.35em;
+  }
+}
+
+@media (max-width: 576px) {
+  .mobile-visible {
+    display: unset;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 577px) {
+  .mobile-hidden {
+    display: unset;
+  }
+
+  .mobile-visible {
+    display: none;
+  }
+}

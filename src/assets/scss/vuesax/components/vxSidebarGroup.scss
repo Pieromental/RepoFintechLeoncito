@@ -1,0 +1,180 @@
+/*=========================================================================================
+  File Name: vxSidebarGroup.scss
+  Description: Styles for vx-sidebar-group component. Imported in VxSidebarGroup.vue file
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuesax Admin - VueJS Dashboard Admin Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+
+
+.vs-sidebar-group {
+    overflow: hidden;
+    color: #526474;
+    .group-header {
+        //transition: all .5s ease;
+        //font-size: 15px;
+        //padding: 10px 15px;
+        font-size: 11px;
+        padding: 13px 15px;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.23;
+        text-align: left;
+        cursor: pointer;
+        .feather-grp-header-arrow {
+            position: absolute !important;
+            right: 8px;
+            top: 9px;
+            // top: 30%;
+            //transition: all .2s ease-out;
+            transform: rotate(0deg);
+            display: inline-block;
+            &.rotate90 {
+                transform: rotate(90deg);
+            }
+        }
+
+        > * {
+            //transition: all .25s ease;
+            //margin-left: 0.5rem !important;
+        }
+        &:hover {
+            > * {
+                //color: #a1bf23;
+                transform: translateX(2px);
+            }
+        }
+        .con-vs-chip{
+            margin-bottom: 0;
+        }
+    }
+
+    .vs-icon {
+        font-size: 1.5rem;
+    }
+
+    &:hover{
+        >.group-header{
+            transform: unset;
+            //color: #fafafa;
+            background: #ffffff;
+            .feather-icon {
+                svg {
+                    //color: #a1bf23;
+                }
+            }
+        }
+    }
+
+    .vs-sidebar-group{
+        .group-header{
+            .items-center{
+                //margin-left: 5rem ;
+            }
+        }
+    }
+    &.vs-sidebar-group-open {
+        >.group-header {
+            cursor: pointer;
+            background: #ffffff;
+            //border-radius: 6px;
+            //margin-bottom: 7px;
+        }
+        >.vs-sidebar-group-items{
+            
+            .vs-sidebar--item{
+                span{
+                    padding: 0;
+                    font-family: Montserrat;
+                    font-size: 11px;
+                    font-weight: 400;
+                    font-stretch: normal;
+                    font-style: normal;
+                    line-height: 1.23;
+                    color: #526474;
+                }
+                &:last-child{
+                    border-bottom: 0px;
+                }
+            }
+        }
+        .vs-sidebar-group{
+            overflow: visible;
+        }
+    }
+    &.vs-sidebar-group-active {
+        >.group-header {
+            background-color: #ffffff;
+            //border-radius: 6px;
+            font-family: Montserrat;
+            font-size: 11px;
+            font-weight: 400;
+            font-stretch: normal;
+            font-style: normal;
+            text-align: left;
+            color: #526474;
+            .feather-icon {
+                svg {
+                    color: #526474;
+                }
+            }
+        }
+    }
+    .vs-sidebar-group-items{
+        opacity: 0;
+        .vs-sidebar--item{
+            margin-left: 1.5rem;
+            a{
+                padding: 13px 15px;
+                .feather-icon{
+                    margin-right: 20px;
+                    width: 17px;
+                    height: 17px;
+                }
+                .truncate{
+                    font-size: 11px;
+                }
+            }
+            &:last-child{
+                a{
+                    margin-bottom: 0;
+                }
+            }
+            &:hover{
+                background: #ffffff;
+                span{
+                    //color: #a1bf23;
+                }
+                .feather-icon {
+                    svg {
+                        //color: #a1bf23;
+                    }
+                }
+            }
+        }
+        li{
+            &:last-child{
+                //padding-bottom: 7px;
+            }
+        }
+
+        .vs-sidebar-group{
+            span{
+                .feather-icon{
+                    margin-right: 20px;
+                }
+            }
+            .feather-icon{
+                margin-right: 0px;
+            }
+        }
+    }
+    &.disabled-item {
+        span {
+            color: #526474;
+        }
+    }
+}
